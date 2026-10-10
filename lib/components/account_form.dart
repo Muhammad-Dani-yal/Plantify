@@ -210,7 +210,7 @@ class _AccountFormState extends State<AccountForm> {
                                             fit: StackFit.expand,
                                             children: [
                                               Image.asset(
-                                                  'assets/botanical/greenhouse-hero.png',
+                                                  'assets/botanical/greenhouse-hero.webp',
                                                   fit: BoxFit.cover,
                                                   alignment:
                                                       Alignment.centerRight),

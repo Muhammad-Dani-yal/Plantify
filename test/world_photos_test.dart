@@ -89,7 +89,7 @@ void main() {
         scientific: 'Monstera deliciosa Liebm.',
         rank: 'SPECIES',
         status: 'ACCEPTED'));
-    expect(local!.asset, 'assets/botanical/monstera.png');
+    expect(local!.asset, 'assets/botanical/monstera.webp');
     expect(
         await photos.photo(const WorldPlant(
             key: 2,

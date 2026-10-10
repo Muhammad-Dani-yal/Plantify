@@ -57,6 +57,18 @@ android {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
+            minifyEnabled true
+            shrinkResources true
+        }
+    }
+
+    // Default APKs load native libraries directly to minimize installed storage.
+    // Opt in to compressed native libraries for a smaller download APK. Android
+    // extracts those libraries once on installation; runtime code is identical.
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = providers.gradleProperty('plantifyCompactApk')
+                .map { it.toBoolean() }.getOrElse(false)
         }
     }
 }

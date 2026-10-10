@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -64,6 +65,25 @@ void main() {
       if (p.imagePath.startsWith('assets/catalogue/')) {
         expect(p.imageCredit, isNotEmpty);
         expect(p.imageSource, startsWith('https://'));
+      }
+    }
+  });
+  test('All bundled plant and welcome images decode after compression',
+      () async {
+    final paths = {
+      ...plants.map((plant) => plant.imagePath),
+      'assets/botanical/greenhouse-hero.webp',
+    };
+    for (final path in paths) {
+      final codec =
+          await ui.instantiateImageCodec(await File(path).readAsBytes());
+      try {
+        final frame = await codec.getNextFrame();
+        expect(frame.image.width, greaterThan(0), reason: path);
+        expect(frame.image.height, greaterThan(0), reason: path);
+        frame.image.dispose();
+      } finally {
+        codec.dispose();
       }
     }
   });

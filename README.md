@@ -19,6 +19,38 @@ There is no local account bypass. Authentication must succeed before an account 
 
 ## Run and verify
 
+### Compact Android build
+
+Bundled images use WebP: all 100 plant images and the welcome image total 5,053,774 bytes, down from 24,864,301 bytes. Catalogue photos retain up to 640 pixels on their longest side, matching the card decoder size; featured illustrations retain 1024 pixels and the welcome hero 1280 pixels. Photo credits and licences are preserved.
+
+Measured version 1.0.1 build 2 APK sizes (decimal MB):
+
+| APK | Download size | Use |
+| --- | ---: | --- |
+| Previous universal debug | 242.96 MB | Development only |
+| Standard ARM64 release | 25.27 MB | Lower installed storage; installed on the connected phone |
+| Compact ARM64 release | 15.42 MB | Smallest download; native libraries are extracted on installation |
+| ARM32 release | 22.59 MB | Older ARM32 phones |
+| x86-64 release | 26.44 MB | x86-64 devices/emulators |
+
+The compact APK is 93.7% smaller than the previous debug APK. The standard and compact ARM64 APKs contain byte-identical Dart AOT code, Flutter engine and Java/Kotlin bytecode. Both include all 101 images, verified against their source hashes. Installed storage includes app data and differs from APK download size.
+
+Use optimized, architecture-specific release APKs for installation, rather than the large universal debug APK. R8 code shrinking, Android resource shrinking and Flutter icon tree shaking remain enabled. This follows [Flutter's Android build guidance](https://docs.flutter.dev/deployment/android#build-an-apk).
+
+```sh
+flutter build apk --release --split-per-abi
+```
+
+`build/app/outputs/flutter-apk/app-arm64-v8a-release.apk` is for modern ARM64 phones, including the connected CPH2449. `app-armeabi-v7a-release.apk` supports older ARM32 phones; `app-x86_64-release.apk` is for x86-64 devices/emulators. Do not merge these APKs into one universal package when minimizing download size. Store signing still requires the owner's keystore.
+
+Run `powershell -File tool/verify_release_apk.ps1` to verify release libraries, a single architecture, and hashes of all 101 packaged images against the project. Image decoding is covered by the Flutter regression suite.
+
+For an even smaller ARM64 download, run `powershell -File tool/build_compact_apk.ps1`. This passes the opt-in `plantifyCompactApk` Gradle property explicitly and creates `app-compact-arm64-release.apk` with compressed native libraries. Android extracts those libraries during installation, so this variant uses more installed storage than the standard ARM64 APK, while running the same app code. The default build keeps direct native-library loading for lower installed storage; see [Android's packaging guidance](https://developer.android.com/guide/practices/page-sizes). Verify the compact variant with `powershell -File tool/verify_release_apk.ps1 -Apk build/app/outputs/flutter-apk/app-compact-arm64-release.apk`.
+
+To optimize newly added PNG/JPEG assets, install the encoder with `npm install --prefix build/asset-optimizer sharp`, then run `node tool/optimize_images.cjs`. Original images are backed up under the ignored `build/asset-originals` directory; `--from-originals` re-encodes from those originals rather than recompressing a previous WebP. The catalogue generator recognizes existing WebP assets.
+
+### Development checks
+
 ```sh
 flutter pub get
 flutter run -d chrome

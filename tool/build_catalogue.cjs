@@ -1,6 +1,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const entries = JSON.parse(fs.readFileSync('tool/catalogue.json', 'utf8'));
+const existingImage = id => ['webp', 'jpg']
+  .map(extension => `assets/catalogue/${id}.${extension}`)
+  .find(file => fs.existsSync(file)) || '';
 const profiles = {
   foliage: ['Indoor','Tropical','Indirect','Moderate',7,'Easy','18–28°C','Airy houseplant compost with perlite.','Let the upper soil dry slightly; keep light bright but filtered.'],
   tropical: ['Indoor','Statement leaves','Indirect','Moderate',5,'Moderate','18–28°C','Moisture-retentive but well-draining houseplant mix.','Keep humidity steady and protect delicate leaves from hot direct sun.'],
@@ -48,14 +51,14 @@ async function main() {
   const credits = fs.existsSync(creditFile) ? JSON.parse(fs.readFileSync(creditFile,'utf8')) : {};
   for (let start=0; start<entries.length; start+=8) {
     const batch = entries.slice(start,start+8);
-    if (batch.every(e => credits[e.id] && fs.existsSync(`assets/catalogue/${e.id}.jpg`))) continue;
+    if (batch.every(e => credits[e.id] && existingImage(e.id))) continue;
     const response = await api('en.wikipedia.org',{action:'query',titles:batch.map(e=>wikiOverrides[e.id] || e.botanical).join('|'),prop:'pageimages|info',inprop:'url',pithumbsize:'480',redirects:'1'});
     const pages = Object.values(response.query?.pages || {});
     const files = pages.map(p => p.pageimage).filter(Boolean);
     const metadata = files.length ? await api('en.wikipedia.org',{action:'query',titles:files.map(f=>`File:${f}`).join('|'),prop:'imageinfo',iiprop:'url|extmetadata'}) : {};
     const metaPages = Object.values(metadata.query?.pages || {});
     for (const entry of batch) {
-      if (credits[entry.id] && fs.existsSync(`assets/catalogue/${entry.id}.jpg`)) continue;
+      if (credits[entry.id] && existingImage(entry.id)) continue;
       let title = wikiOverrides[entry.id] || entry.botanical;
       for (const red of response.query?.redirects || []) if (red.from === title) title = red.to;
       for (const norm of response.query?.normalized || []) if (norm.from === title) title = norm.to;
@@ -89,7 +92,7 @@ async function main() {
   const colors = ['E1EBD3','EFE0CE','DFE8EB','E5DDED','DEE9DD'];
   const plants = entries.map((entry,i)=>{
     const [environment,category,light,water,waterDays,difficulty,temperature,soil,tip] = profiles[entry.group];
-    const image = fs.existsSync(`assets/catalogue/${entry.id}.jpg`) ? `assets/catalogue/${entry.id}.jpg` : '';
+    const image = existingImage(entry.id);
     const credit = credits[entry.id];
     return `  Plant(id: ${dartString(entry.id)}, name: ${dartString(entry.name)}, botanical: ${dartString(entry.botanical)}, image: ${dartString(image)}, environment: ${dartString(environment)}, category: ${dartString(category)}, light: ${dartString(light)}, water: ${dartString(water)}, waterDays: ${waterDays}, difficulty: ${dartString(difficulty)}, temperature: ${dartString(temperature)}, soil: ${dartString(soil)}, tip: ${dartString(tip)}, description: ${dartString(entry.description)}, color: Color(0xFF${colors[i%colors.length]}), imageCredit: ${dartString(credit ? `${credit.author} · ${credit.license}` : '')}, imageSource: ${dartString(credit?.source || '')}),`;
   });

@@ -392,7 +392,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                 child: SizedBox(
                     height: constraints.maxWidth < 400 ? 620 : 480,
                     child: Stack(fit: StackFit.expand, children: [
-                      Image.asset('assets/botanical/greenhouse-hero.png',
+                      Image.asset('assets/botanical/greenhouse-hero.webp',
                           fit: BoxFit.cover, alignment: Alignment.centerRight),
                       const DecoratedBox(
                           decoration: BoxDecoration(

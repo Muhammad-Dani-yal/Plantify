@@ -74,8 +74,6 @@ Updated 9 October 2026.
 - All 47 Flutter tests pass, including automatic paging/retry/deduplication, multi-genus filters, unbundled discovery, responsive search preservation, photo priority/cancellation, rate-limit retry and secure legacy media. Analyzer is clean; final web and Android debug builds pass.
 - Rendered Chrome verified automatic worldwide paging, live Fruit/Unique filters, a real online photograph, private Firebase bookmark persistence, matching desktop/mobile profile layouts and dark mode. QA accounts/documents were removed. APK kernel checks verify the packaged source rather than relying only on Gradle success.
 
-## Public release configuration
-
 ## Downloaded-first discovery and photo framing
 
 - Discover renders all 100 bundled plants before online records in lazy sliver grids. Query, collection and rank filters apply to the downloaded section; bundled botanical matches are excluded from the online section to avoid duplicates. Saved world plants remain account-specific.
@@ -83,7 +81,16 @@ Updated 9 October 2026.
 - The 47-test regression suite passed; the nine catalogue tests were rerun after adding explicit ordering and duplicate-species assertions. Analyzer, Android debug build and web build passed. APK kernel checks include both downloaded and online section labels.
 - Rendered Chrome verified downloaded favourites, automatic online pagination, live filters, online photo rendering, private cloud bookmarks, shared desktop/mobile profiles and dark mode. Temporary QA accounts and data were removed.
 
-## Release configuration details
+## APK size optimization, version 1.0.1 build 2
+
+- Replaced 101 PNG/JPEG images with WebP assets, preserving image content, transparent pixels and photo credits. Image bytes dropped from 24,864,301 to 5,053,774 (79.7%). Originals are backed up only in the ignored build directory; the catalogue generator recognizes WebP files.
+- Enabled explicit release code/resource shrinking and generated per-architecture APKs. Standard ARM64 APK: 25,266,477 bytes; compact ARM64 APK with compressed native libraries: 15,420,733 bytes. Previous debug APK: 242,955,962 bytes. The smallest download is 93.7% smaller.
+- Default native packaging keeps direct loading for lower installed storage. The opt-in compact build extracts libraries once during installation and uses more installed storage. Runtime libraries and classes.dex were verified byte-identical between variants; both APKs pass signature verification.
+- Added a real Flutter-engine decoding check for all 101 bundled images. All 48 regression tests pass; analyzer is clean; final web build and Android release builds pass. APK verification checks single-architecture packaging, current compiled code and hashes of every bundled photo.
+- Rendered Chrome verifies compressed-image display, real sign-in, saved favourite restoration, automatic worldwide pagination, live filters, online photos/bookmarks and mobile/desktop profiles/dark mode. Temporary QA accounts and documents were removed.
+- Standard ARM64 APK installed on the connected CPH2449 with existing app data preserved. Android reports a successful 623 ms cold activity launch; the process has no Flutter, plugin or fatal runtime exceptions in the smoke check. Automated on-device UI assertions did not find the expected visible screen, so visual validation remains the rendered Chrome checks rather than a claimed device UI pass.
+
+## Store and platform configuration
 
 Hosting has not been published. Android store signing needs the owner's release keystore. Firebase configuration currently supports Android and Web; Apple platforms need their own Firebase registrations and Mac validation.
 

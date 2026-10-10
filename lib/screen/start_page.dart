@@ -21,21 +21,21 @@ class _StartPageState extends State<StartPage> with WidgetsBindingObserver {
     (
       'Your next green\nobsession starts here.',
       'Discover a whole world of plants, from easy first companions to your next statement leaf.',
-      'assets/botanical/greenhouse-hero.png',
+      'assets/botanical/greenhouse-hero.webp',
       'A world of green',
       'Discover'
     ),
     (
       'Less guessing.\nMore growing.',
       'Get to know the light, soil, and little routines that help each plant feel at home.',
-      'assets/botanical/monstera.png',
+      'assets/botanical/monstera.webp',
       'Monstera deliciosa',
       'Learn'
     ),
     (
       'A garden that\ngrows with you.',
       'Build your collection, keep care notes, and take your garden with you across your devices.',
-      'assets/botanical/lavender.png',
+      'assets/botanical/lavender.webp',
       'Lavandula angustifolia',
       'Grow'
     ),

@@ -36,7 +36,7 @@ class Plant {
 
   String get imagePath => image.startsWith('assets/') || image.isEmpty
       ? image
-      : 'assets/botanical/$image.png';
+      : 'assets/botanical/$image.webp';
 }
 
 const featuredPlants = <Plant>[
