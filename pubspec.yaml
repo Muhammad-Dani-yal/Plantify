@@ -1,10 +1,10 @@
-﻿name: myapp
+name: plantify
 description: "Plantify: discover plants and grow with confidence."
 publish_to: 'none'
-version: 1.0.1+2
+version: 1.0.2+3
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: '>=3.6.0 <4.0.0'
 
 dependencies:
   flutter:
@@ -14,6 +14,7 @@ dependencies:
   shared_preferences: ^2.3.2
   firebase_core: ^4.15.0
   firebase_auth: ^6.7.0
+  firebase_app_check: ^0.4.8
   cloud_firestore: ^6.10.0
   url_launcher: ^6.3.2
   http: ^1.4.0

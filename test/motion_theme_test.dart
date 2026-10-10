@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:myapp/components/app_theme.dart';
-import 'package:myapp/components/motion_icon.dart';
+import 'package:plantify/components/app_theme.dart';
+import 'package:plantify/components/motion_icon.dart';
 
 void main() {
   testWidgets('Live icons animate and settle with reduced motion',

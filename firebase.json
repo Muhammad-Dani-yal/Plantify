@@ -1,6 +1,7 @@
 {
   "firestore": { "rules": "firestore.rules" },
   "hosting": {
+    "site": "plantify-00",
     "public": "build/web",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [{"source": "**", "destination": "/index.html"}]

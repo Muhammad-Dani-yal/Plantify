@@ -25,7 +25,7 @@ async function main(){
     const catalogueRequests=[];
     page.on('request', r=>{if(r.url().includes('/v1/species/search'))catalogueRequests.push(new URL(r.url()));});
     page.on('pageerror',e=>errors.push(e.message));
-    await page.goto('http://127.0.0.1:8765');
+    await page.goto(process.env.PLANTIFY_QA_URL || 'http://127.0.0.1:8765');
     const accessibility=page.locator('flt-semantics-placeholder');
     await accessibility.waitFor({state:'attached',timeout:30000});await accessibility.evaluate(el=>el.click());
     await page.getByRole('button',{name:'Get started',exact:true}).click({timeout:30000});
@@ -58,6 +58,41 @@ async function main(){
     await page.mouse.move(900,650);await page.mouse.wheel(0,500);
     await page.getByRole('button',{name:'Remove Monstera from favorites',exact:true}).waitFor({timeout:30000});
     console.log('PASS: browser favourite persists in Firestore; session and saved collection restore after reload.');
+    await page.getByRole('img',{name:'Monstera',exact:true}).first().click();
+    await page.getByRole('button',{name:'Add to My Plants',exact:true}).click();
+    await page.getByRole('button',{name:'Back',exact:true}).click();
+    await page.getByRole('button',{name:'My Plants',exact:true}).click();
+    await page.getByRole('button',{name:'Record watering',exact:true}).click();
+    await page.getByRole('button',{name:'Care notes',exact:true}).click();
+    await page.getByRole('textbox').first().click();
+    await page.keyboard.type('QA: bright corner, check soil first.',{delay:10});
+    await page.getByRole('button',{name:'Save notes',exact:true}).click();
+    await page.getByText('QA: bright corner, check soil first.',{exact:true}).waitFor();
+    let gardenSaved=false;
+    for(let attempt=0;attempt<20;attempt++){
+      const response=await fetch(documentUrl,{headers:{Authorization:`Bearer ${account.idToken}`}});
+      const document=await response.json();
+      const garden=document.fields?.garden?.mapValue?.fields?.monstera?.mapValue?.fields;
+      if(garden?.notes?.stringValue==='QA: bright corner, check soil first.' && garden?.watered?.stringValue){gardenSaved=true;break;}
+      await page.waitForTimeout(500);
+    }
+    if(!gardenSaved)throw new Error('Rendered garden notes/watering were not saved');
+    await page.getByRole('button',{name:'Profile',exact:true}).click();
+    await page.mouse.move(1100,650);await page.mouse.wheel(0,1000);await page.waitForTimeout(500);
+    await page.getByRole('button',{name:'Sign out',exact:true}).click();
+    await page.getByRole('textbox',{name:'Email address',exact:true}).click();
+    await page.keyboard.type(email,{delay:10});
+    await page.getByRole('textbox',{name:'Password',exact:true}).click();
+    await page.keyboard.type(password,{delay:10});
+    await page.getByRole('button',{name:'Sign in',exact:true}).click();
+    await page.getByText('Discover',{exact:true}).waitFor({timeout:30000});
+    await page.getByRole('button',{name:'My Plants',exact:true}).click();
+    await page.getByText('QA: bright corner, check soil first.',{exact:true}).waitFor({timeout:30000});
+    await page.getByText(/^Last watered:/).waitFor();
+    await page.getByRole('button',{name:'Discover',exact:true}).click();
+    await page.mouse.move(900,650);await page.mouse.wheel(0,500);await page.waitForTimeout(500);
+    await page.getByRole('button',{name:'Remove Monstera from favorites',exact:true}).waitFor();
+    console.log('PASS: browser garden, care notes and watering persist; logout/login restores garden and favourites.');
     await page.getByRole('button',{name:'AI guide',exact:true}).click();
     const chatInput=page.getByRole('textbox',{name:'Ask about your plants…',exact:true});
     await chatInput.click();await page.keyboard.type('Mein gardening mein new hun. Fruit plants ke liye pehla step kya hai?',{delay:10});

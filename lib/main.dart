@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'services/cloud_backend.dart';
+import 'services/app_attestation.dart';
 import 'components/app_theme.dart';
 import 'screen/splash_page.dart';
 import 'state/app_state.dart';
@@ -15,6 +16,7 @@ Future<void> main() async {
   try {
     await Firebase.initializeApp(
         options: DefaultFirebaseOptions.currentPlatform);
+    await AppAttestation.initialize();
     backend = FirebaseBackend();
   } catch (failure) {
     debugPrint('Firebase startup failed: $failure');

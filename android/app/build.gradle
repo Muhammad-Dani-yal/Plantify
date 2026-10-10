@@ -23,6 +23,24 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+def hasReleaseSigning = keystorePropertiesFile.exists()
+if (hasReleaseSigning) {
+    keystorePropertiesFile.withInputStream { keystoreProperties.load(it) }
+    ['storeFile', 'storePassword', 'keyAlias', 'keyPassword'].each { key ->
+        if (!keystoreProperties.getProperty(key)) {
+            throw new GradleException("Missing release signing property: ${key}")
+        }
+    }
+    if (!rootProject.file(keystoreProperties.getProperty('storeFile')).exists()) {
+        throw new GradleException('Release keystore does not exist')
+    }
+}
+if (providers.gradleProperty('plantifyProductionSigning').map { it.toBoolean() }.getOrElse(false) && !hasReleaseSigning) {
+    throw new GradleException('Production signing requires android/key.properties and the owner release keystore')
+}
+
 android {
     namespace "com.example.myapp"
     compileSdk flutter.compileSdkVersion
@@ -42,7 +60,6 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.muhammaddaniyal.plantify"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
@@ -52,11 +69,21 @@ android {
         versionName flutterVersionName
     }
 
+    signingConfigs {
+        if (hasReleaseSigning) {
+            release {
+                storeFile rootProject.file(keystoreProperties.getProperty('storeFile'))
+                storePassword keystoreProperties.getProperty('storePassword')
+                keyAlias keystoreProperties.getProperty('keyAlias')
+                keyPassword keystoreProperties.getProperty('keyPassword')
+            }
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig signingConfigs.debug
+            // Retain demo updates until the owner supplies private store keys.
+            signingConfig hasReleaseSigning ? signingConfigs.release : signingConfigs.debug
             minifyEnabled true
             shrinkResources true
         }

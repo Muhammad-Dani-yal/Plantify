@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
-import 'package:myapp/components/app_theme.dart';
-import 'package:myapp/components/plant_profile.dart';
-import 'package:myapp/screen/home_page.dart';
-import 'package:myapp/data/world_plant.dart';
-import 'package:myapp/screen/world_catalogue.dart';
-import 'package:myapp/services/world_catalogue.dart';
-import 'package:myapp/state/app_state.dart';
+import 'package:plantify/components/app_theme.dart';
+import 'package:plantify/components/plant_profile.dart';
+import 'package:plantify/screen/home_page.dart';
+import 'package:plantify/data/world_plant.dart';
+import 'package:plantify/screen/world_catalogue.dart';
+import 'package:plantify/services/world_catalogue.dart';
+import 'package:plantify/state/app_state.dart';
 import 'fake_backend.dart';
 
 Map<String, dynamic> record(int key, String name) => {

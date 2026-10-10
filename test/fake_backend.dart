@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:myapp/services/cloud_backend.dart';
+import 'package:plantify/services/cloud_backend.dart';
 
 class FakeBackend implements CloudBackend {
   FakeBackend({bool signedIn = false}) {

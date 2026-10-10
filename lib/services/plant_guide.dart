@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:http/http.dart' as http;
+import 'app_attestation.dart';
 
 class GuideMessage {
   const GuideMessage(this.text, {this.fromUser = true});
@@ -47,6 +48,7 @@ Plant context: $plantContext''';
           Uri.https('firebasevertexai.googleapis.com',
               '/v1beta/projects/${options.projectId}/models/$modelName:generateContent'),
           headers: {
+            ...await AppAttestation.headers(),
             'Content-Type': 'application/json',
             'x-goog-api-key': options.apiKey,
             'X-Firebase-AppId': options.appId,

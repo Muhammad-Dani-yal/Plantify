@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:myapp/screen/plant_chat.dart';
-import 'package:myapp/services/plant_guide.dart';
-import 'package:myapp/state/app_state.dart';
+import 'package:plantify/screen/plant_chat.dart';
+import 'package:plantify/services/plant_guide.dart';
+import 'package:plantify/state/app_state.dart';
 import 'fake_backend.dart';
 
 class TestGuide implements PlantGuide {

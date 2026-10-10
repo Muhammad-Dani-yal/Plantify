@@ -24,7 +24,7 @@ async function main() {
       const email = `plantify-qa-${crypto.randomUUID()}@example.invalid`;
       const password = crypto.randomBytes(20).toString('base64url');
       const account = await auth('signUp',{email,password,returnSecureToken:true});
-      accounts.push(account);
+      accounts.push({...account, password});
       const signedIn = await auth('signInWithPassword',{email,password,returnSecureToken:true});
       assert.equal(signedIn.localId,account.localId);
     }
@@ -40,6 +40,16 @@ async function main() {
     const data = await read.json();
     assert.equal(data.fields.garden.mapValue.fields.snake.mapValue.fields.notes.stringValue,'QA care note');
     console.log('PASS: real Firestore favourites, garden, care notes and watering record.');
+    const freshSession = await auth('signInWithPassword', {
+      email: owner.email, password: owner.password, returnSecureToken: true
+    });
+    const restoredResponse = await document('GET', freshSession.localId, freshSession.idToken);
+    assert.equal(restoredResponse.status, 200);
+    const restored = await restoredResponse.json();
+    assert.ok(restored.fields.favorites.arrayValue.values.some(v => v.stringValue === 'monstera'));
+    assert.equal(restored.fields.garden.mapValue.fields.snake.mapValue.fields.notes.stringValue, 'QA care note');
+    assert.ok(restored.fields.garden.mapValue.fields.snake.mapValue.fields.watered.stringValue);
+    console.log('PASS: a fresh authenticated session restores favourites, garden notes and watering data.');
     assert.equal((await document('GET',owner.localId,null)).status,403);
     assert.equal((await document('GET',owner.localId,other.idToken)).status,403);
     assert.equal((await document('PATCH',owner.localId,other.idToken,{fields})).status,403);

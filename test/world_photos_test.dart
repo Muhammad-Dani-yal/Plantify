@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
-import 'package:myapp/data/world_plant.dart';
-import 'package:myapp/services/world_photos.dart';
+import 'package:plantify/data/world_plant.dart';
+import 'package:plantify/services/world_photos.dart';
 
 const plant = WorldPlant(
     key: 5275521,
