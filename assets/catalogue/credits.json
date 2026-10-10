@@ -1,0 +1,754 @@
+{
+  "parlor-palm": {
+    "file": "Chamaedorea_elegans_Mart.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Chamaedorea_elegans_Mart.JPG",
+    "author": "Bachelot Pierre J-P",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Chamaedorea_elegans"
+  },
+  "areca": {
+    "file": "散尾葵Dypsis_lutescens_20210511145013_05.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%95%A3%E5%B0%BE%E8%91%B5Dypsis_lutescens_20210511145013_05.jpg",
+    "author": "Ping an Chang",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Chrysalidocarpus_lutescens"
+  },
+  "kentia": {
+    "file": "Howea_forsteriana_Lord_Howe_Island.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Howea_forsteriana_Lord_Howe_Island.jpg",
+    "author": "Black Diamond Images",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "article": "https://en.wikipedia.org/wiki/Howea_forsteriana"
+  },
+  "lady-palm": {
+    "file": "Arya_-_Rhapis_excelsa_at_hotel_citradream_Cirebon_2019_0.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Arya_-_Rhapis_excelsa_at_hotel_citradream_Cirebon_2019_0.jpg",
+    "author": "Aris riyanto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Rhapis_excelsa"
+  },
+  "bamboo-palm": {
+    "file": "Chamaedorea_seifrizii7.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chamaedorea_seifrizii7.jpg",
+    "author": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Chamaedorea_seifrizii"
+  },
+  "peace-lily": {
+    "file": "Peace_lily_-_1_-_cropped.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Peace_lily_-_1_-_cropped.jpg",
+    "author": "W.carter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Spathiphyllum_wallisii"
+  },
+  "zz": {
+    "file": "Zamioculcas_zamiifolia_1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Zamioculcas_zamiifolia_1.jpg",
+    "author": "User:WeFt",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Zamioculcas"
+  },
+  "rubber": {
+    "file": "Ficus_elastica_leaves_02.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Ficus_elastica_leaves_02.JPG",
+    "author": "B.navez",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Ficus_elastica"
+  },
+  "fiddle": {
+    "file": "Starr_031108-0130_Ficus_lyrata.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Starr_031108-0130_Ficus_lyrata.jpg",
+    "author": "Forest & Kim Starr",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "article": "https://en.wikipedia.org/wiki/Ficus_lyrata"
+  },
+  "weeping-fig": {
+    "file": "Starr-080608-7576-Ficus_benjamina-habit_with_Laysan_albatross-Gym_Sand_Island-Midway_Atoll_(24823189861).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Starr-080608-7576-Ficus_benjamina-habit_with_Laysan_albatross-Gym_Sand_Island-Midway_Atoll_(24823189861).jpg",
+    "author": "Forest and Kim Starr",
+    "license": "CC BY 3.0 us",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+    "article": "https://en.wikipedia.org/wiki/Ficus_benjamina"
+  },
+  "spider": {
+    "file": "Hierbabuena_0611_Revised.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hierbabuena_0611_Revised.jpg",
+    "author": "Hierbabuena_0611.JPG: Dtarazona\nderivative work: Peter coxhead (talk)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "article": "https://en.wikipedia.org/wiki/Chlorophytum_comosum"
+  },
+  "money-tree": {
+    "file": "Flickr_-_archer10_(Dennis)_-_Guatemala-1376.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_(Dennis)_-_Guatemala-1376.jpg",
+    "author": "Dennis G. Jarvis",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "article": "https://en.wikipedia.org/wiki/Pachira_aquatica"
+  },
+  "pilea": {
+    "file": "Pilea_peperomioides_Chinese_money_plant.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pilea_peperomioides_Chinese_money_plant.jpg",
+    "author": "Husky",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "article": "https://en.wikipedia.org/wiki/Pilea_peperomioides"
+  },
+  "aglaonema": {
+    "file": "Aglaonema_commutatum_kz1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Aglaonema_commutatum_kz1.jpg",
+    "author": "Krzysztof Ziarnek, Kenraiz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Aglaonema_commutatum"
+  },
+  "cast-iron": {
+    "file": "Aspidistra_elatior1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Aspidistra_elatior1.jpg",
+    "author": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Aspidistra_elatior"
+  },
+  "corn": {
+    "file": "Dracaena_fragrans_(2).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dracaena_fragrans_(2).jpg",
+    "author": "rojypala",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "article": "https://en.wikipedia.org/wiki/Dracaena_fragrans"
+  },
+  "dragon": {
+    "file": "Dracaena_reflexa.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Dracaena_reflexa.JPG",
+    "author": "No machine-readable author provided. B.navez assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Dracaena_reflexa"
+  },
+  "lucky-bamboo": {
+    "file": "Dracaena_sanderiana_2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dracaena_sanderiana_2.jpg",
+    "author": "Cataleirxs",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Dracaena_sanderiana"
+  },
+  "umbrella": {
+    "file": "Octopus_Tree_(Schefflera_actinophylla)_at_Hyderabad,_AP_W_283.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Octopus_Tree_(Schefflera_actinophylla)_at_Hyderabad,_AP_W_283.jpg",
+    "author": "J.M.Garg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Heptapleurum_actinophyllum"
+  },
+  "dwarf-umbrella": {
+    "file": "Schefflera_arboricola,_vrugte,_a,_Pretoria.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Schefflera_arboricola,_vrugte,_a,_Pretoria.jpg",
+    "author": "JMK",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Heptapleurum_arboricola"
+  },
+  "dieffenbachia": {
+    "file": "Starr_061212-2331_Dieffenbachia_seguine.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Starr_061212-2331_Dieffenbachia_seguine.jpg",
+    "author": "Forest & Kim Starr",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "article": "https://en.wikipedia.org/wiki/Dieffenbachia_seguine"
+  },
+  "croton": {
+    "file": "Colpfl05.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Colpfl05.jpg",
+    "author": "Louise Wolff --darina 23:22, 6 May 2005 (UTC)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Codiaeum_variegatum"
+  },
+  "polka-dot": {
+    "file": "Starr_080117-1693_Hypoestes_phyllostachya.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Starr_080117-1693_Hypoestes_phyllostachya.jpg",
+    "author": "Forest & Kim Starr",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "article": "https://en.wikipedia.org/wiki/Hypoestes_phyllostachya"
+  },
+  "nerve": {
+    "file": "Colpfl25.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Colpfl25.jpg",
+    "author": "Louise Wolff --darina 00:12, 7 May 2005 (UTC)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Fittonia_albivenis"
+  },
+  "inch": {
+    "file": "Zebrina_pendula_20060521_2_closer.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Zebrina_pendula_20060521_2_closer.jpg",
+    "author": "Ruestz (upload 13:54, 11 January 2008)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Tradescantia_zebrina"
+  },
+  "purple-heart": {
+    "file": "Trapoeraba-roxa_(do_tupi_*tarapoeraba)_em_Bagé,_RS,_Brasil_-_55378584901.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Trapoeraba-roxa_(do_tupi_*tarapoeraba)_em_Bag%C3%A9,_RS,_Brasil_-_55378584901.jpg",
+    "author": "O Tupinólogo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "article": "https://en.wikipedia.org/wiki/Tradescantia_pallida"
+  },
+  "oyster": {
+    "file": "Tradescantia_spathacea_(_Moses-in-the-cradle_).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tradescantia_spathacea_(_Moses-in-the-cradle_).jpg",
+    "author": "Stephanie cheks",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Tradescantia_spathacea"
+  },
+  "heartleaf": {
+    "file": "Philodendron_scandens_subsp_oxycardium2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Philodendron_scandens_subsp_oxycardium2.jpg",
+    "author": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Philodendron_hederaceum"
+  },
+  "satin": {
+    "file": "Scindapsus_pictus_01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Scindapsus_pictus_01.jpg",
+    "author": "Kor!An (Корзун Андрей)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Scindapsus_pictus"
+  },
+  "mini-monstera": {
+    "file": "Rhaphidophora_tetrasperma.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhaphidophora_tetrasperma.jpg",
+    "author": "Theoperatingsystem",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Rhaphidophora_tetrasperma"
+  },
+  "swiss-cheese": {
+    "file": "Monstera_adansonii_79319231.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Monstera_adansonii_79319231.jpg",
+    "author": "Aitor",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "article": "https://en.wikipedia.org/wiki/Monstera_adansonii"
+  },
+  "alocasia": {
+    "file": "Alocasia_x_amazonica_a1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Alocasia_x_amazonica_a1.jpg",
+    "author": "Jerzy Opioła",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Alocasia_%C3%97_mortfontanensis"
+  },
+  "bird-of-paradise": {
+    "file": "Strelitzia_nicolai_3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Strelitzia_nicolai_3.jpg",
+    "author": "Eric in SF",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Strelitzia_nicolai"
+  },
+  "boston-fern": {
+    "file": "Boston_Fern_(2873392811).png",
+    "source": "https://commons.wikimedia.org/wiki/File:Boston_Fern_(2873392811).png",
+    "author": "Homer Edward Price",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "article": "https://en.wikipedia.org/wiki/Nephrolepis_exaltata"
+  },
+  "maidenhair": {
+    "file": "Starr_030807-0143_Adiantum_raddianum.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Starr_030807-0143_Adiantum_raddianum.jpg",
+    "author": "Forest & Kim Starr",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "article": "https://en.wikipedia.org/wiki/Adiantum_raddianum"
+  },
+  "birds-nest": {
+    "file": "Asplenium_nidus_(Bukidnon,_Philippines)_02.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Asplenium_nidus_(Bukidnon,_Philippines)_02.jpg",
+    "author": "Obsidian Soul",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "article": "https://en.wikipedia.org/wiki/Asplenium_nidus"
+  },
+  "staghorn": {
+    "file": "Platycerium_bifurcatum_612351086.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Platycerium_bifurcatum_612351086.jpg",
+    "author": "themaskedlapwing",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "article": "https://en.wikipedia.org/wiki/Platycerium_bifurcatum"
+  },
+  "blue-star": {
+    "file": "Starr_050107-2831_Phlebodium_aureum.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Starr_050107-2831_Phlebodium_aureum.jpg",
+    "author": "Forest & Kim Starr",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "article": "https://en.wikipedia.org/wiki/Phlebodium_aureum"
+  },
+  "button-fern": {
+    "file": "Pellaea_rotundifolia_-_Berlin_Botanical_Garden_-_IMG_8761.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Pellaea_rotundifolia_-_Berlin_Botanical_Garden_-_IMG_8761.JPG",
+    "author": "Daderot",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "article": "https://en.wikipedia.org/wiki/Pellaea_rotundifolia"
+  },
+  "prayer": {
+    "file": "Maranta_leuconeura3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Maranta_leuconeura3.jpg",
+    "author": "Kurt Stüber [1]",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Maranta_leuconeura"
+  },
+  "orbifolia": {
+    "file": "Calathea_orbifolia_2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Calathea_orbifolia_2.jpg",
+    "author": "Fregisseur",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Goeppertia_orbifolia"
+  },
+  "rattlesnake": {
+    "file": "CalatheaLancifolia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:CalatheaLancifolia.jpg",
+    "author": "Chhe (talk)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "article": "https://en.wikipedia.org/wiki/Goeppertia_insignis"
+  },
+  "peacock": {
+    "file": "CalatheaMakoyana.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:CalatheaMakoyana.jpg",
+    "author": "Chhe (talk)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "article": "https://en.wikipedia.org/wiki/Goeppertia_makoyana"
+  },
+  "pinstripe": {
+    "file": "Goeppertia_ornata_herbarium.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Goeppertia_ornata_herbarium.jpg",
+    "author": "Royal Botanic Gardens, Kew",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "article": "https://en.wikipedia.org/wiki/Goeppertia_ornata"
+  },
+  "jade": {
+    "file": "Crassula_ovata_700.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Crassula_ovata_700.jpg",
+    "author": "author is sannse.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Crassula_ovata"
+  },
+  "aloe": {
+    "file": "Aloe_vera_flower_inset.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Aloe_vera_flower_inset.png",
+    "author": "Collage by en:User:MidgleyDJ, original images from Wikimedia commons (Image:Aloe_vera_offsets.jpg and Image:Aloe_vera_C.jpg)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Aloe_vera"
+  },
+  "zebra-haworthia": {
+    "file": "Winterbourne_-_Haworthia_attenuata_(6120983526).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Winterbourne_-_Haworthia_attenuata_(6120983526).jpg",
+    "author": "stephen boisvert from Chicago, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "article": "https://en.wikipedia.org/wiki/Haworthiopsis_attenuata"
+  },
+  "echeveria": {
+    "file": "Echeveria_elegans_-_1.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Echeveria_elegans_-_1.png",
+    "author": "EriaWei",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Echeveria_elegans"
+  },
+  "burros-tail": {
+    "file": "Donkey's_tail_in_bloom_March_06.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Donkey%27s_tail_in_bloom_March_06.jpg",
+    "author": "Morningdew51 at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Sedum_morganianum"
+  },
+  "string-of-pearls": {
+    "file": "Senecio_rowleyanus_leaves.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Senecio_rowleyanus_leaves.jpg",
+    "author": "Flickr user Forest and Kim Starr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "article": "https://en.wikipedia.org/wiki/Curio_rowleyanus"
+  },
+  "string-of-hearts": {
+    "file": "Ceropegia_linearis_subsp_woodii.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ceropegia_linearis_subsp_woodii.jpg",
+    "author": "Photo: Dr. David Midgley",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "article": "https://en.wikipedia.org/wiki/Ceropegia_woodii"
+  },
+  "elephant-bush": {
+    "file": "Portulacaria_afra_02.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Portulacaria_afra_02.JPG",
+    "author": "Dinkum",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "article": "https://en.wikipedia.org/wiki/Portulacaria_afra"
+  },
+  "panda": {
+    "file": "Kalanchoe_tomentosa_01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kalanchoe_tomentosa_01.jpg",
+    "author": "Agnieszka Kwiecień, Nova",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Kalanchoe_tomentosa"
+  },
+  "flaming-katy": {
+    "file": "Kalanchoe_blossfeldiana_3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kalanchoe_blossfeldiana_3.jpg",
+    "author": "বাক্যবাগীশ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Kalanchoe_blossfeldiana"
+  },
+  "aeonium": {
+    "file": "Madeira,_Palheiro_Gardens_-_Aeonium_arboreum_(Marokko)_IMG_2310.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Madeira,_Palheiro_Gardens_-_Aeonium_arboreum_(Marokko)_IMG_2310.JPG",
+    "author": "Hedwig Storch",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Aeonium_arboreum"
+  },
+  "agave": {
+    "file": "Agave_attenuata_001.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Agave_attenuata_001.JPG",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Agave_attenuata"
+  },
+  "gasteria": {
+    "file": "Gasteria_bicolor_var_bicolor_3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gasteria_bicolor_var_bicolor_3.jpg",
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Gasteria_bicolor"
+  },
+  "haworthia-cooperi": {
+    "file": "1_Haworthia_cooperi_-_Kirstenbosch.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:1_Haworthia_cooperi_-_Kirstenbosch.jpg",
+    "author": "Abu Shawka",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "article": "https://en.wikipedia.org/wiki/Haworthia_cooperi"
+  },
+  "hens-chicks": {
+    "file": "Sempervivum_tectorum_Almindelig_Husløg.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sempervivum_tectorum_Almindelig_Husl%C3%B8g.jpg",
+    "author": "",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Sempervivum_tectorum"
+  },
+  "golden-barrel": {
+    "file": "Echinocactus_grusonii_(aka).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Echinocactus_grusonii_(aka).jpg",
+    "author": "André Karwath aka Aka",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "article": "https://en.wikipedia.org/wiki/Kroenleinia_grusonii"
+  },
+  "bunny-ears": {
+    "file": "Opuntia_microdasys_3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Opuntia_microdasys_3.jpg",
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Opuntia_microdasys"
+  },
+  "moon-cactus": {
+    "file": "Gymnocalycium_mihanovichii_16.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Gymnocalycium_mihanovichii_16.JPG",
+    "author": "Petar43",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Gymnocalycium_mihanovichii"
+  },
+  "mammillaria": {
+    "file": "Mammillaria_spinosissima_by_RO.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mammillaria_spinosissima_by_RO.jpg",
+    "author": "Rationalobserver",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Mammillaria_spinosissima"
+  },
+  "christmas-cactus": {
+    "file": "Cactus_de_noël_rev.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cactus_de_no%C3%ABl_rev.jpg",
+    "author": "Cactus_de_noël.jpg: Empereur Day\nderivative work: Peter coxhead (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Schlumbergera"
+  },
+  "fishbone-cactus": {
+    "file": "Epiphyllum_anguliger1Emma_Lindahl.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Epiphyllum_anguliger1Emma_Lindahl.jpg",
+    "author": "Emma Lindahl",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "article": "https://en.wikipedia.org/wiki/Disocactus_anguliger"
+  },
+  "anthurium": {
+    "file": "AnthuriumAndraenum.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:AnthuriumAndraenum.jpg",
+    "author": "Taken by Fanghong",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "article": "https://en.wikipedia.org/wiki/Anthurium_andraeanum"
+  },
+  "african-violet": {
+    "file": "Streptocarpus_ionanthus_(as_Saintpaulia_ionantha)_-_Curtis'_121_(Ser._3_no._51)_pl._7408_(1895).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Streptocarpus_ionanthus_(as_Saintpaulia_ionantha)_-_Curtis%27_121_(Ser._3_no._51)_pl._7408_(1895).jpg",
+    "author": "M. S. del. ( = Matilda Smith, 1854-1926),  J. N. Fitch lith. ( = John Nugent Fitch, 1840–1927)   Description by Joseph Dalton Hooker (1817—1911)  Colour and contrast altered to remove paper yellowing by Peter coxhead",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "article": "https://en.wikipedia.org/wiki/Streptocarpus_ionanthus"
+  },
+  "begonia": {
+    "file": "Painted_Leaved_Begonia._Begonia_rex_Putz._Flore_des_serres_et_des_jardins_de_l'Europe_v.12_(1857).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Painted_Leaved_Begonia._Begonia_rex_Putz._Flore_des_serres_et_des_jardins_de_l%27Europe_v.12_(1857).jpg",
+    "author": "Swallowtail Garden Seeds",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "article": "https://en.wikipedia.org/wiki/Begonia_rex"
+  },
+  "hoya": {
+    "file": "NKN-2007-06-13_114250_Hoya_Carnosa_(Yvan_Leduc_author_for_Wikipedia).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:NKN-2007-06-13_114250_Hoya_Carnosa_(Yvan_Leduc_author_for_Wikipedia).jpg",
+    "author": "Yvan leduc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Hoya_carnosa"
+  },
+  "bromeliad": {
+    "file": "Bromeliaceae03.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bromeliaceae03.jpg",
+    "author": "",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Guzmania_lingulata"
+  },
+  "medinilla": {
+    "file": "Medinilla_magnifica_flor.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Medinilla_magnifica_flor.jpg",
+    "author": "No machine-readable author provided. Alberto Salguero assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Medinilla_magnifica"
+  },
+  "clivia": {
+    "file": "Clivia_miniata,_blomme_en_vrugte,_Manie_van_der_Schijff_BT,_a.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Clivia_miniata,_blomme_en_vrugte,_Manie_van_der_Schijff_BT,_a.jpg",
+    "author": "JMK",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Clivia_miniata"
+  },
+  "cyclamen": {
+    "file": "Yagur_–_Nesher,_the_Green_Path_–_Mount_Carmel_016.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Yagur_%E2%80%93_Nesher,_the_Green_Path_%E2%80%93_Mount_Carmel_016.JPG",
+    "author": "Hanay",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Cyclamen_persicum"
+  },
+  "amaryllis": {
+    "file": "Hippeastrum_reginae.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hippeastrum_reginae.jpg",
+    "author": "Drew Avery",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "article": "https://en.wikipedia.org/wiki/Hippeastrum"
+  },
+  "moth-orchid": {
+    "file": "Phalaenopsis_amabilis_Orchi_198.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Phalaenopsis_amabilis_Orchi_198.jpg",
+    "author": "Orchi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Phalaenopsis_amabilis"
+  },
+  "dendrobium": {
+    "file": "Dendrobium_nobile_-_flower_view_01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dendrobium_nobile_-_flower_view_01.jpg",
+    "author": "Fan Wen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Dendrobium_nobile"
+  },
+  "basil": {
+    "file": "Ocimum_basilicum_8zz.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ocimum_basilicum_8zz.jpg",
+    "author": "Photo by David J. Stang",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Basil"
+  },
+  "mint": {
+    "file": "Minze.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Minze.jpg",
+    "author": "Simon Eugster --Simon 13:07, 2 July 2006 (UTC)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Spearmint"
+  },
+  "rosemary": {
+    "file": "Rosemary_in_bloom.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosemary_in_bloom.JPG",
+    "author": "Margalob",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Rosemary"
+  },
+  "thyme": {
+    "file": "Thymus_vulgaris1.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Thymus_vulgaris1.JPG",
+    "author": "Henry Brisse (upload by user:Abalg)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Thymus_vulgaris"
+  },
+  "parsley": {
+    "file": "Petroselinum.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Petroselinum.jpg",
+    "author": "Jonathunder",
+    "license": "GFDL 1.2",
+    "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+    "article": "https://en.wikipedia.org/wiki/Parsley"
+  },
+  "coriander": {
+    "file": "Coriandrum_sativum_-_Köhler–s_Medizinal-Pflanzen-193.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "article": "https://en.wikipedia.org/wiki/Coriander"
+  },
+  "sage": {
+    "file": "Salvia_officinalis0.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Salvia_officinalis0.jpg",
+    "author": "Kurt Stüber [1]",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Salvia_officinalis"
+  },
+  "oregano": {
+    "file": "Origanum_vulgare_-_harilik_pune.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Origanum_vulgare_-_harilik_pune.jpg",
+    "author": "Ivar Leidus",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Oregano"
+  },
+  "rose": {
+    "file": "Rosa_chinensis.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosa_chinensis.jpg",
+    "author": "Sakurai Midori",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Rosa_chinensis"
+  },
+  "hibiscus": {
+    "file": "Hibiscus_Brilliant.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_Brilliant.jpg",
+    "author": "Andy / Andrew Fogg from near Cambridge, UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "article": "https://en.wikipedia.org/wiki/Hibiscus_%C3%97_rosa-sinensis"
+  },
+  "bougainvillea": {
+    "file": "Bugenwilla.Długo_kwitnaca_roslina.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bugenwilla.D%C5%82ugo_kwitnaca_roslina.jpg",
+    "author": "Zbigniew Niepokój",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Bougainvillea_glabra"
+  },
+  "jasmine": {
+    "file": "Jasminum_officinale_-_Bot._Mag._31,_1787.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Jasminum_officinale_-_Bot._Mag._31,_1787.jpg",
+    "author": "Botanical Magazine",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "article": "https://en.wikipedia.org/wiki/Jasminum_officinale"
+  },
+  "marigold": {
+    "file": "French_marigold_Tagetes_patula.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:French_marigold_Tagetes_patula.jpg",
+    "author": "Muhammad Mahdi Karim",
+    "license": "GFDL 1.2",
+    "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+    "article": "https://en.wikipedia.org/wiki/Tagetes_patula"
+  },
+  "sunflower": {
+    "file": "Sunflower_sky_backdrop.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunflower_sky_backdrop.jpg",
+    "author": "Fir0002",
+    "license": "GFDL 1.2",
+    "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+    "article": "https://en.wikipedia.org/wiki/Common_sunflower"
+  },
+  "petunia": {
+    "file": "PetuniaFlower.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:PetuniaFlower.JPG",
+    "author": "Rocksmoker 007",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "article": "https://en.wikipedia.org/wiki/Petunia_%C3%97_atkinsiana"
+  },
+  "geranium": {
+    "file": "Pelargonium_zonale_in_wild.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pelargonium_zonale_in_wild.jpg",
+    "author": "Peter Warren",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "article": "https://en.wikipedia.org/wiki/Pelargonium_zonale"
+  },
+  "hydrangea": {
+    "file": "(Natural)_Hydrangea_macrophylla,_Iwafune,_Isumi,_Chiba,_Japan_2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:(Natural)_Hydrangea_macrophylla,_Iwafune,_Isumi,_Chiba,_Japan_2.jpg",
+    "author": "belvedere04",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "article": "https://en.wikipedia.org/wiki/Hydrangea_macrophylla"
+  },
+  "gardenia": {
+    "file": "Gardenia_jasminoides_flower_Argentina.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gardenia_jasminoides_flower_Argentina.jpg",
+    "author": "Adriel anv00",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "article": "https://en.wikipedia.org/wiki/Gardenia_jasminoides"
+  }
+}

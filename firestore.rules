@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+      function owner() { return request.auth != null && request.auth.uid == uid; }
+      function valid() {
+        let data = request.resource.data;
+        return data.keys().hasOnly(['name', 'email', 'favorites', 'garden', 'dark', 'hints'])
+          && (!('name' in data) || (data.name is string && data.name.size() <= 60))
+          && (!('email' in data) || (data.email is string && data.email == request.auth.token.email))
+          && (!('favorites' in data) || (data.favorites is list && data.favorites.size() <= 100))
+          && (!('garden' in data) || (data.garden is map && data.garden.size() <= 100))
+          && (!('dark' in data) || data.dark is bool)
+          && (!('hints' in data) || data.hints is bool);
+      }
+      allow read, delete: if owner();
+      allow create, update: if owner() && valid();
+      match /worldPlants/{plantKey} {
+        function validPlant() {
+          let data = request.resource.data;
+          return plantKey.matches('^[0-9]{1,12}$')
+            && data.keys().hasOnly(['key', 'canonicalName', 'scientificName', 'rank', 'taxonomicStatus', 'family', 'genus', 'acceptedKey'])
+            && data.keys().hasAll(['key', 'canonicalName', 'scientificName', 'rank', 'taxonomicStatus', 'family', 'genus'])
+            && data.key is int && data.key > 0
+            && data.canonicalName is string && data.canonicalName.size() <= 1000
+            && data.scientificName is string && data.scientificName.size() <= 1000
+            && data.rank is string && data.rank.size() <= 40
+            && data.taxonomicStatus is string && data.taxonomicStatus.size() <= 40
+            && data.family is string && data.family.size() <= 300
+            && data.genus is string && data.genus.size() <= 300
+            && (!('acceptedKey' in data) || data.acceptedKey is int);
+        }
+        allow read, delete: if owner();
+        allow create, update: if owner() && validPlant();
+      }
+    }
+  }
+}

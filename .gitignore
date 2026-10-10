@@ -25,6 +25,8 @@ migrate_working_dir/
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
+.kotlin/
+**/.kotlin/
 .flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
@@ -41,3 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local Firebase configuration downloads and rule backups
+firebase-web-config.json
+firestore.previous.rules

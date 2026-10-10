@@ -2,6 +2,7 @@ plugins {
     id "com.android.application"
     id "kotlin-android"
     id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"
 }
 
 def localProperties = new Properties()
@@ -25,15 +26,15 @@ if (flutterVersionName == null) {
 android {
     namespace "com.example.myapp"
     compileSdk flutter.compileSdkVersion
-    ndkVersion flutter.ndkVersion
+    ndkVersion "27.1.12297006"
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '17'
     }
 
     sourceSets {
@@ -42,10 +43,10 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.myapp"
+        applicationId "com.muhammaddaniyal.plantify"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion flutter.minSdkVersion
+        minSdkVersion 23
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -65,3 +66,18 @@ flutter {
 }
 
 dependencies {}
+
+// Track real project files explicitly. The installed Flutter Gradle dependency
+// parser can retain escaped spaces in this workspace's paths and reuse old Dart
+// output after a source change. Keep SDK caches and global Flutter files intact.
+tasks.matching { it.name.startsWith('compileFlutterBuild') }.configureEach {
+    inputs.files(fileTree('../../lib') { include '**/*.dart' })
+        .withPropertyName('plantifyDartSources')
+        .withPathSensitivity(PathSensitivity.RELATIVE)
+    inputs.files(fileTree('../../assets'))
+        .withPropertyName('plantifyAssets')
+        .withPathSensitivity(PathSensitivity.RELATIVE)
+    inputs.files(file('../../pubspec.yaml'), file('../../pubspec.lock'))
+        .withPropertyName('plantifyPackages')
+        .withPathSensitivity(PathSensitivity.RELATIVE)
+}

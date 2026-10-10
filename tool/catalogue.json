@@ -1,0 +1,660 @@
+[
+  {
+    "id": "peace-lily",
+    "name": "Peace lily",
+    "botanical": "Spathiphyllum wallisii",
+    "group": "tropical",
+    "description": "Glossy leaves and white sail-like spathes bring a quiet elegance to sheltered rooms."
+  },
+  {
+    "id": "zz",
+    "name": "ZZ plant",
+    "botanical": "Zamioculcas zamiifolia",
+    "group": "dry-foliage",
+    "description": "Sculptural glossy stems and underground rhizomes make this a patient companion for busy spaces."
+  },
+  {
+    "id": "rubber",
+    "name": "Rubber plant",
+    "botanical": "Ficus elastica",
+    "group": "foliage",
+    "description": "Large leathery leaves give this upright tropical tree a bold architectural silhouette."
+  },
+  {
+    "id": "fiddle",
+    "name": "Fiddle-leaf fig",
+    "botanical": "Ficus lyrata",
+    "group": "foliage",
+    "description": "Violin-shaped leaves turn a bright corner into a leafy focal point."
+  },
+  {
+    "id": "weeping-fig",
+    "name": "Weeping fig",
+    "botanical": "Ficus benjamina",
+    "group": "foliage",
+    "description": "Small pointed leaves hang from graceful branches on this classic indoor tree."
+  },
+  {
+    "id": "spider",
+    "name": "Spider plant",
+    "botanical": "Chlorophytum comosum",
+    "group": "foliage",
+    "description": "Arching striped leaves and dangling plantlets make a lively hanging display."
+  },
+  {
+    "id": "money-tree",
+    "name": "Money tree",
+    "botanical": "Pachira aquatica",
+    "group": "foliage",
+    "description": "Hand-shaped leaf clusters open above an upright trunk with a tropical feel."
+  },
+  {
+    "id": "pilea",
+    "name": "Chinese money plant",
+    "botanical": "Pilea peperomioides",
+    "group": "foliage",
+    "description": "Round coin-shaped leaves sit on slender stems and form a playful green umbrella."
+  },
+  {
+    "id": "aglaonema",
+    "name": "Chinese evergreen",
+    "botanical": "Aglaonema commutatum",
+    "group": "shade",
+    "description": "Silver-patterned leaves brighten a softly lit room without demanding direct sunshine."
+  },
+  {
+    "id": "cast-iron",
+    "name": "Cast iron plant",
+    "botanical": "Aspidistra elatior",
+    "group": "shade",
+    "description": "Broad dark leaves and a steady growing habit suit calm shaded corners."
+  },
+  {
+    "id": "corn",
+    "name": "Corn plant",
+    "botanical": "Dracaena fragrans",
+    "group": "shade",
+    "description": "Long ribbon-like leaves gather at the tops of woody canes."
+  },
+  {
+    "id": "dragon",
+    "name": "Dragon tree",
+    "botanical": "Dracaena marginata",
+    "group": "dry-foliage",
+    "description": "Narrow red-edged leaves crown slender stems for a light sculptural look."
+  },
+  {
+    "id": "lucky-bamboo",
+    "name": "Lucky bamboo",
+    "botanical": "Dracaena sanderiana",
+    "group": "foliage",
+    "description": "Upright canes and fresh green leaves give this dracaena a clean compact shape."
+  },
+  {
+    "id": "umbrella",
+    "name": "Umbrella tree",
+    "botanical": "Heptapleurum actinophyllum",
+    "group": "foliage",
+    "description": "Radiating leaflets form broad umbrellas on this fast-growing tropical tree."
+  },
+  {
+    "id": "dwarf-umbrella",
+    "name": "Dwarf umbrella tree",
+    "botanical": "Heptapleurum arboricola",
+    "group": "foliage",
+    "description": "Smaller glossy leaf umbrellas make an adaptable leafy shrub for bright rooms."
+  },
+  {
+    "id": "dieffenbachia",
+    "name": "Dumb cane",
+    "botanical": "Dieffenbachia seguine",
+    "group": "tropical",
+    "description": "Cream and green patterned leaves create an eye-catching tropical display."
+  },
+  {
+    "id": "croton",
+    "name": "Garden croton",
+    "botanical": "Codiaeum variegatum",
+    "group": "foliage",
+    "description": "Leathery leaves carry striking combinations of green yellow orange and red."
+  },
+  {
+    "id": "polka-dot",
+    "name": "Polka dot plant",
+    "botanical": "Hypoestes phyllostachya",
+    "group": "tropical",
+    "description": "Pink or pale speckles turn small leaves into a cheerful living pattern."
+  },
+  {
+    "id": "nerve",
+    "name": "Nerve plant",
+    "botanical": "Fittonia albivenis",
+    "group": "tropical",
+    "description": "Fine contrasting veins trace every leaf of this small humidity-loving plant."
+  },
+  {
+    "id": "inch",
+    "name": "Inch plant",
+    "botanical": "Tradescantia zebrina",
+    "group": "trailing",
+    "description": "Silver stripes and purple undersides shine along cascading stems."
+  },
+  {
+    "id": "purple-heart",
+    "name": "Purple heart",
+    "botanical": "Tradescantia pallida",
+    "group": "trailing",
+    "description": "Rich purple stems and lance-shaped leaves add colour to hanging pots."
+  },
+  {
+    "id": "oyster",
+    "name": "Oyster plant",
+    "botanical": "Tradescantia spathacea",
+    "group": "foliage",
+    "description": "Compact rosettes show green upper leaves and vivid purple undersides."
+  },
+  {
+    "id": "heartleaf",
+    "name": "Heartleaf philodendron",
+    "botanical": "Philodendron hederaceum",
+    "group": "trailing",
+    "description": "Soft heart-shaped leaves climb a support or spill over a shelf."
+  },
+  {
+    "id": "satin",
+    "name": "Satin pothos",
+    "botanical": "Scindapsus pictus",
+    "group": "trailing",
+    "description": "Silvery splashes shimmer across velvety heart-shaped leaves."
+  },
+  {
+    "id": "mini-monstera",
+    "name": "Mini monstera",
+    "botanical": "Rhaphidophora tetrasperma",
+    "group": "climber",
+    "description": "Naturally split leaves create a jungle effect on a manageable climbing vine."
+  },
+  {
+    "id": "swiss-cheese",
+    "name": "Swiss cheese vine",
+    "botanical": "Monstera adansonii",
+    "group": "climber",
+    "description": "Oval leaves develop distinctive holes along this lively climbing plant."
+  },
+  {
+    "id": "alocasia",
+    "name": "Amazonian elephant ear",
+    "botanical": "Alocasia x amazonica",
+    "group": "tropical",
+    "description": "Deep green arrow-shaped leaves are outlined by dramatic pale veins."
+  },
+  {
+    "id": "bird-of-paradise",
+    "name": "White bird of paradise",
+    "botanical": "Strelitzia nicolai",
+    "group": "foliage",
+    "description": "Tall paddle-shaped leaves bring a generous tropical silhouette to sunny rooms."
+  },
+  {
+    "id": "parlor-palm",
+    "name": "Parlor palm",
+    "botanical": "Chamaedorea elegans",
+    "group": "palm",
+    "description": "Fine feathered fronds form an elegant compact indoor palm."
+  },
+  {
+    "id": "areca",
+    "name": "Areca palm",
+    "botanical": "Dypsis lutescens",
+    "group": "palm",
+    "description": "Golden canes support airy arching fronds with a soft tropical presence."
+  },
+  {
+    "id": "kentia",
+    "name": "Kentia palm",
+    "botanical": "Howea forsteriana",
+    "group": "palm",
+    "description": "Long graceful fronds make an understated statement in bright sheltered rooms."
+  },
+  {
+    "id": "lady-palm",
+    "name": "Lady palm",
+    "botanical": "Rhapis excelsa",
+    "group": "palm",
+    "description": "Fan-shaped divided leaves rise from slender bamboo-like stems."
+  },
+  {
+    "id": "bamboo-palm",
+    "name": "Bamboo palm",
+    "botanical": "Chamaedorea seifrizii",
+    "group": "palm",
+    "description": "Clusters of slender canes carry light feathery fronds."
+  },
+  {
+    "id": "boston-fern",
+    "name": "Boston fern",
+    "botanical": "Nephrolepis exaltata",
+    "group": "fern",
+    "description": "Arching fronds form a lush fountain of fine green leaflets."
+  },
+  {
+    "id": "maidenhair",
+    "name": "Maidenhair fern",
+    "botanical": "Adiantum raddianum",
+    "group": "fern",
+    "description": "Delicate fan-shaped leaflets float on dark wiry stems."
+  },
+  {
+    "id": "birds-nest",
+    "name": "Bird's nest fern",
+    "botanical": "Asplenium nidus",
+    "group": "fern",
+    "description": "Broad rippled fronds grow from a central rosette like a green nest."
+  },
+  {
+    "id": "staghorn",
+    "name": "Staghorn fern",
+    "botanical": "Platycerium bifurcatum",
+    "group": "epiphyte",
+    "description": "Antler-like fronds give this tree-dwelling fern a distinctive sculptural form."
+  },
+  {
+    "id": "blue-star",
+    "name": "Blue star fern",
+    "botanical": "Phlebodium aureum",
+    "group": "fern",
+    "description": "Soft blue-green divided fronds create a fresh contrast to glossy foliage."
+  },
+  {
+    "id": "button-fern",
+    "name": "Button fern",
+    "botanical": "Pellaea rotundifolia",
+    "group": "fern",
+    "description": "Rounded leaflets line gently arching stems in a compact display."
+  },
+  {
+    "id": "prayer",
+    "name": "Prayer plant",
+    "botanical": "Maranta leuconeura",
+    "group": "prayer",
+    "description": "Patterned oval leaves lift and fold with the daily rhythm of light."
+  },
+  {
+    "id": "orbifolia",
+    "name": "Round-leaf calathea",
+    "botanical": "Goeppertia orbifolia",
+    "group": "prayer",
+    "description": "Broad rounded leaves carry elegant bands of silver and green."
+  },
+  {
+    "id": "rattlesnake",
+    "name": "Rattlesnake plant",
+    "botanical": "Goeppertia insignis",
+    "group": "prayer",
+    "description": "Long wavy leaves have dark oval markings and purple undersides."
+  },
+  {
+    "id": "peacock",
+    "name": "Peacock plant",
+    "botanical": "Goeppertia makoyana",
+    "group": "prayer",
+    "description": "Fine feather-like markings decorate translucent oval leaves."
+  },
+  {
+    "id": "pinstripe",
+    "name": "Pinstripe calathea",
+    "botanical": "Goeppertia ornata",
+    "group": "prayer",
+    "description": "Pale narrow stripes sweep across deep green foliage."
+  },
+  {
+    "id": "jade",
+    "name": "Jade plant",
+    "botanical": "Crassula ovata",
+    "group": "succulent",
+    "description": "Thick oval leaves and branching woody stems form a miniature tree."
+  },
+  {
+    "id": "aloe",
+    "name": "Aloe vera",
+    "botanical": "Aloe vera",
+    "group": "succulent",
+    "description": "Fleshy serrated leaves grow in upright rosettes suited to bright windows."
+  },
+  {
+    "id": "zebra-haworthia",
+    "name": "Zebra haworthia",
+    "botanical": "Haworthiopsis attenuata",
+    "group": "succulent",
+    "description": "White ridges stripe compact pointed leaves in a neatly arranged rosette."
+  },
+  {
+    "id": "echeveria",
+    "name": "Mexican snowball",
+    "botanical": "Echeveria elegans",
+    "group": "succulent",
+    "description": "Pale blue-green fleshy leaves form a symmetrical rose-like rosette."
+  },
+  {
+    "id": "burros-tail",
+    "name": "Burro's tail",
+    "botanical": "Sedum morganianum",
+    "group": "succulent-trailing",
+    "description": "Plump closely packed leaves hang from long trailing stems."
+  },
+  {
+    "id": "string-of-pearls",
+    "name": "String of pearls",
+    "botanical": "Curio rowleyanus",
+    "group": "succulent-trailing",
+    "description": "Round bead-like leaves cascade from slender stems."
+  },
+  {
+    "id": "string-of-hearts",
+    "name": "String of hearts",
+    "botanical": "Ceropegia woodii",
+    "group": "succulent-trailing",
+    "description": "Small marbled heart-shaped leaves hang along fine purple vines."
+  },
+  {
+    "id": "elephant-bush",
+    "name": "Elephant bush",
+    "botanical": "Portulacaria afra",
+    "group": "succulent",
+    "description": "Tiny rounded leaves grow on reddish branching stems."
+  },
+  {
+    "id": "panda",
+    "name": "Panda plant",
+    "botanical": "Kalanchoe tomentosa",
+    "group": "succulent",
+    "description": "Velvety grey leaves are edged with warm brown markings."
+  },
+  {
+    "id": "flaming-katy",
+    "name": "Flaming Katy",
+    "botanical": "Kalanchoe blossfeldiana",
+    "group": "succulent",
+    "description": "Bright flower clusters stand above thick glossy leaves."
+  },
+  {
+    "id": "aeonium",
+    "name": "Tree aeonium",
+    "botanical": "Aeonium arboreum",
+    "group": "succulent",
+    "description": "Dark or green rosettes perch on branching stems like leafy bouquets."
+  },
+  {
+    "id": "agave",
+    "name": "Foxtail agave",
+    "botanical": "Agave attenuata",
+    "group": "succulent",
+    "description": "Broad smooth leaves gather into large architectural rosettes."
+  },
+  {
+    "id": "gasteria",
+    "name": "Ox tongue",
+    "botanical": "Gasteria bicolor",
+    "group": "succulent",
+    "description": "Thick spotted tongue-shaped leaves stack into an unusual compact form."
+  },
+  {
+    "id": "haworthia-cooperi",
+    "name": "Cooper's haworthia",
+    "botanical": "Haworthia cooperi",
+    "group": "succulent",
+    "description": "Rounded translucent leaf tips give small rosettes a jewel-like quality."
+  },
+  {
+    "id": "hens-chicks",
+    "name": "Hens and chicks",
+    "botanical": "Sempervivum tectorum",
+    "group": "hardy-succulent",
+    "description": "A central outdoor rosette produces smaller offsets around its edge."
+  },
+  {
+    "id": "golden-barrel",
+    "name": "Golden barrel cactus",
+    "botanical": "Echinocactus grusonii",
+    "group": "cactus",
+    "description": "Golden spines cover a strongly ribbed globe with a sculptural presence."
+  },
+  {
+    "id": "bunny-ears",
+    "name": "Bunny ears cactus",
+    "botanical": "Opuntia microdasys",
+    "group": "cactus",
+    "description": "Paired oval pads grow into a playful branching silhouette."
+  },
+  {
+    "id": "moon-cactus",
+    "name": "Chin cactus",
+    "botanical": "Gymnocalycium mihanovichii",
+    "group": "cactus",
+    "description": "A small ribbed cactus prized for its rounded form and colourful cultivated varieties."
+  },
+  {
+    "id": "mammillaria",
+    "name": "Pincushion cactus",
+    "botanical": "Mammillaria spinosissima",
+    "group": "cactus",
+    "description": "Dense fine spines cover cylindrical stems that may carry rings of flowers."
+  },
+  {
+    "id": "christmas-cactus",
+    "name": "Christmas cactus",
+    "botanical": "Schlumbergera x buckleyi",
+    "group": "forest-cactus",
+    "description": "Segmented arching stems carry showy flowers during the cooler months."
+  },
+  {
+    "id": "fishbone-cactus",
+    "name": "Fishbone cactus",
+    "botanical": "Disocactus anguliger",
+    "group": "forest-cactus",
+    "description": "Flat zigzag stems create a striking cascading shape."
+  },
+  {
+    "id": "anthurium",
+    "name": "Flamingo flower",
+    "botanical": "Anthurium andraeanum",
+    "group": "tropical",
+    "description": "Glossy leaves surround bright waxy spathes and an upright flower spike."
+  },
+  {
+    "id": "african-violet",
+    "name": "African violet",
+    "botanical": "Streptocarpus ionanthus",
+    "group": "flowering",
+    "description": "Soft fuzzy leaves cradle clusters of compact colourful flowers."
+  },
+  {
+    "id": "begonia",
+    "name": "Rex begonia",
+    "botanical": "Begonia rex",
+    "group": "tropical",
+    "description": "Metallic colours and bold patterns turn foliage into a richly textured display."
+  },
+  {
+    "id": "hoya",
+    "name": "Wax plant",
+    "botanical": "Hoya carnosa",
+    "group": "trailing",
+    "description": "Thick waxy leaves climb or trail and mature plants may form fragrant flower clusters."
+  },
+  {
+    "id": "bromeliad",
+    "name": "Scarlet star",
+    "botanical": "Guzmania lingulata",
+    "group": "bromeliad",
+    "description": "A colourful central bract rises from a rosette of arching leaves."
+  },
+  {
+    "id": "medinilla",
+    "name": "Rose grape",
+    "botanical": "Medinilla magnifica",
+    "group": "tropical",
+    "description": "Large ribbed leaves frame dramatic hanging clusters of pink blooms."
+  },
+  {
+    "id": "clivia",
+    "name": "Bush lily",
+    "botanical": "Clivia miniata",
+    "group": "flowering",
+    "description": "Strap-like leaves form a handsome base for orange trumpet-shaped flower clusters."
+  },
+  {
+    "id": "cyclamen",
+    "name": "Florist's cyclamen",
+    "botanical": "Cyclamen persicum",
+    "group": "cool-flowering",
+    "description": "Upswept petals rise above silver-patterned heart-shaped leaves."
+  },
+  {
+    "id": "amaryllis",
+    "name": "Amaryllis",
+    "botanical": "Hippeastrum hybridum",
+    "group": "flowering",
+    "description": "A large bulb sends up tall stems topped by generous trumpet-shaped blooms."
+  },
+  {
+    "id": "moth-orchid",
+    "name": "Moth orchid",
+    "botanical": "Phalaenopsis amabilis",
+    "group": "orchid",
+    "description": "Long-lasting white flowers resemble moths resting along arching stems."
+  },
+  {
+    "id": "dendrobium",
+    "name": "Noble dendrobium",
+    "botanical": "Dendrobium nobile",
+    "group": "orchid",
+    "description": "Cane-like stems carry showy flowers and a distinctive upright shape."
+  },
+  {
+    "id": "basil",
+    "name": "Sweet basil",
+    "botanical": "Ocimum basilicum",
+    "group": "herb",
+    "description": "Soft fragrant leaves make a sunny kitchen or balcony feel alive."
+  },
+  {
+    "id": "mint",
+    "name": "Spearmint",
+    "botanical": "Mentha spicata",
+    "group": "herb",
+    "description": "Fresh aromatic leaves grow quickly on upright stems."
+  },
+  {
+    "id": "rosemary",
+    "name": "Rosemary",
+    "botanical": "Salvia rosmarinus",
+    "group": "dry-herb",
+    "description": "Needle-like fragrant leaves line woody stems on this sun-loving shrub."
+  },
+  {
+    "id": "thyme",
+    "name": "Common thyme",
+    "botanical": "Thymus vulgaris",
+    "group": "dry-herb",
+    "description": "Tiny aromatic leaves cover low branching stems."
+  },
+  {
+    "id": "parsley",
+    "name": "Parsley",
+    "botanical": "Petroselinum crispum",
+    "group": "herb",
+    "description": "Curly or flat leaf clusters make a compact and useful container herb."
+  },
+  {
+    "id": "coriander",
+    "name": "Coriander",
+    "botanical": "Coriandrum sativum",
+    "group": "herb",
+    "description": "Fine leafy growth brings a fresh green texture to sunny seasonal pots."
+  },
+  {
+    "id": "sage",
+    "name": "Common sage",
+    "botanical": "Salvia officinalis",
+    "group": "dry-herb",
+    "description": "Soft grey-green aromatic leaves offer a calm silvery texture."
+  },
+  {
+    "id": "oregano",
+    "name": "Oregano",
+    "botanical": "Origanum vulgare",
+    "group": "dry-herb",
+    "description": "Small fragrant leaves cover branching stems with an easy informal habit."
+  },
+  {
+    "id": "rose",
+    "name": "China rose",
+    "botanical": "Rosa chinensis",
+    "group": "outdoor-flower",
+    "description": "Elegant flowers and glossy foliage bring a classic garden character to sunny containers."
+  },
+  {
+    "id": "hibiscus",
+    "name": "Chinese hibiscus",
+    "botanical": "Hibiscus rosa-sinensis",
+    "group": "outdoor-flower",
+    "description": "Large tropical blooms stand out against glossy evergreen leaves."
+  },
+  {
+    "id": "bougainvillea",
+    "name": "Bougainvillea",
+    "botanical": "Bougainvillea glabra",
+    "group": "outdoor-climber",
+    "description": "Vivid papery bracts cover vigorous climbing stems in warm sunny places."
+  },
+  {
+    "id": "jasmine",
+    "name": "Common jasmine",
+    "botanical": "Jasminum officinale",
+    "group": "outdoor-climber",
+    "description": "Delicate white fragrant flowers appear along climbing stems."
+  },
+  {
+    "id": "marigold",
+    "name": "French marigold",
+    "botanical": "Tagetes patula",
+    "group": "outdoor-flower",
+    "description": "Warm yellow orange and red flowers brighten compact seasonal pots."
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "botanical": "Helianthus annuus",
+    "group": "outdoor-flower",
+    "description": "Large sunny flower heads rise above tall sturdy leafy stems."
+  },
+  {
+    "id": "petunia",
+    "name": "Garden petunia",
+    "botanical": "Petunia x atkinsiana",
+    "group": "outdoor-flower",
+    "description": "Trumpet-shaped flowers create a generous splash of colour in pots and baskets."
+  },
+  {
+    "id": "geranium",
+    "name": "Zonal geranium",
+    "botanical": "Pelargonium zonale",
+    "group": "outdoor-flower",
+    "description": "Rounded leaves and bright flower clusters suit sunny balconies."
+  },
+  {
+    "id": "hydrangea",
+    "name": "Bigleaf hydrangea",
+    "botanical": "Hydrangea macrophylla",
+    "group": "outdoor-shade",
+    "description": "Broad leaves frame generous clusters of summer flowers."
+  },
+  {
+    "id": "gardenia",
+    "name": "Gardenia",
+    "botanical": "Gardenia jasminoides",
+    "group": "outdoor-shade",
+    "description": "Fragrant white flowers stand out against polished dark evergreen foliage."
+  }
+]
